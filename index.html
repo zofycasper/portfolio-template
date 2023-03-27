@@ -9,7 +9,6 @@
             href="./images/favicon.png"
         />
 
-        <!-- Put your site title here -->
         <title>
             Casper Tsui | A Front-End Developer based in Auckland, New Zealand.
         </title>
@@ -18,7 +17,7 @@
             name="description"
             content="Front-End Developer based in Auckland, New Zealand"
         />
-        <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+
         <meta name="keywords" content="Casper, HTML, CSS, JavaScript, React" />
         <link rel="stylesheet" href="index.css" />
     </head>
@@ -45,12 +44,22 @@
             <div class="header__text-box row">
                 <div class="header__text">
                     <h1 class="heading-primary">
-                        <!-- Replace the following name with your name -->
                         <span>Casper Tsui</span>
                     </h1>
-                    <!-- Put a small paragraph about yourself -->
+
                     <p>A web developer based in Auckland, New Zealand.</p>
                     <a href="#contact" class="btn btn--pink">Get in touch</a>
+                    <div class="logo-container">
+                        <img src="./images/HTML-logo.svg" alt="" />
+                        <img src="./images/CSS-logo.svg" alt="" />
+                        <img
+                            class="javascript"
+                            src="./images/JavaScript-logo.svg"
+                            alt=""
+                        />
+                        <img src="./images/React-logo.svg" alt="" />
+                        <img src="./images/Tailwind-logo.svg" alt="" />
+                    </div>
                 </div>
             </div>
         </header>
@@ -62,8 +71,6 @@
                 <div class="row">
                     <h2>My Work</h2>
                     <div class="work__boxes">
-                        <!-- Each div with the work__box class is a project. -->
-
                         <div class="work__box">
                             <div class="work__text">
                                 <h3>Password Generator</h3>
@@ -297,6 +304,50 @@
                                 />
                             </div>
                         </div>
+
+                        <div class="work__box">
+                            <div class="work__text">
+                                <h3>Price Watcher</h3>
+                                <p>
+                                    A chrome extension shows the price of a list
+                                    of crypto-currencies, with add-to-favorite
+                                    and search features.
+                                </p>
+                                <ul class="work__list">
+                                    <li>React</li>
+                                    <li>Tailwind CSS</li>
+                                </ul>
+
+                                <div class="work__links">
+                                    <a
+                                        href="https://github.com/zofycasper/price-watcher"
+                                        class="link__text"
+                                        target="_blank"
+                                    >
+                                        Visit Site <span>&rarr;</span>
+                                    </a>
+                                    <a
+                                        href="https://github.com/zofycasper/price-watcher"
+                                        target="_blank"
+                                    >
+                                        <img
+                                            src="./images/github.svg"
+                                            class="work__code"
+                                            title="View Source Code"
+                                            alt="GitHub"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="work__image-box">
+                                <img
+                                    src="./images/price-watcher.png"
+                                    class="work__image"
+                                    style="height: 600px"
+                                    alt="Project 3"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -307,7 +358,6 @@
                     <h2>About Me</h2>
                     <div class="about__content">
                         <div class="about__text">
-                            <!-- Replace the below paragraph with info about yourself -->
                             <p>
                                 Kia Ora! My name is Casper, and I am a front-end
                                 developer with a background in commerce
@@ -325,9 +375,8 @@
                                 for delivering high-quality projects.
                             </p>
 
-                            <!-- Provide a link to your resume -->
                             <a
-                                href="./images/A4-Resume (5).pdf"
+                                href="./images/Casper-Resume.pdf"
                                 class="btn"
                                 target="_blank"
                                 >My Resume</a
@@ -335,7 +384,6 @@
                         </div>
 
                         <div class="about__photo-container">
-                            <!-- Add a nice photo of yourself -->
                             <img
                                 class="about__photo"
                                 src="./images/casper-tsui.jpg"
@@ -360,7 +408,7 @@
                         know. I will do my best to respond back. 😊 The quickest
                         way to reach out to me is via an email.
                     </p>
-                    <!-- Replace the email with yours -->
+
                     <a href="mailto:zofycasper@gmail.com" class="btn"
                         >zofycasper@gmail.com</a
                     >
@@ -372,7 +420,6 @@
 
         <footer role="contentinfo" class="footer">
             <div class="row">
-                <!-- Update the links to point to your accounts -->
                 <ul class="footer__social-links">
                     <li class="footer__social-link-item">
                         <a

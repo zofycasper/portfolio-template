@@ -112,6 +112,7 @@ section {
 img {
     object-fit: contain;
     max-width: 100%;
+    max-height: 600px;
 }
 
 /* --------------------------------------- */
@@ -425,6 +426,22 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-medium);
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 4.5rem 0;
+    gap: 2rem;
+}
+
+.javascript {
+    border-radius: 0.5rem;
+}
+
+.logo-container > img {
+    width: 4rem;
+    opacity: 90%;
+}
+
 @media (max-width: 500px) {
     .header {
         text-align: center;
@@ -432,6 +449,13 @@ body:not(.user-is-tabbing) a:focus {
 
     .header__text p {
         transform: scale(0.8);
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        padding: 4.5rem 0;
+        gap: 2rem;
     }
 }
 
